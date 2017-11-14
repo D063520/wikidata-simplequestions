@@ -1,4 +1,4 @@
-Wikidata SimpleQuestions dataset
+SimpleQuestions dataset mapped into Wikidata and DBpedia
 ==========================
 
 This repository provides a version of the [SimpleQuestions](https://research.fb.com/downloads/babi/) dataset mapped to Wikidata.
@@ -14,8 +14,8 @@ The mapping code is in the `build.ipynb` file. The mapping of Freebase topics to
 * `annotated_wd_data_test.txt` contains 9961 questions converted from the 21687 original questions.
 * `annotated_wd_data_valid.txt` contains 4867 questions converted from the 10845 original questions.
 
-Converting from Wikidata to DBpedia
+Converting from Wikidata to DBpedia (it's converted using owl:SameAs, owl:equivalentClass, owl:equivalentProperty properties)
 
-* `annotated_dbpedia_data_train.txt` contains 24138 questions converted from the 75910 original questions.
-* `annotated_dbpedia_data_test.txt` contains 7006 questions converted from the 21687 original questions.
-* `annotated_dbpedia_data_valid.txt` contains 3402 questions converted from the 10845 original questions.
+* `annotated_db_data_train.txt` contains 24138 questions converted from the 75910 original questions.
+* `annotated_db_data_test.txt` contains 7006 questions converted from the 21687 original questions.
+* `annotated_db_data_valid.txt` contains 3402 questions converted from the 10845 original questions.
